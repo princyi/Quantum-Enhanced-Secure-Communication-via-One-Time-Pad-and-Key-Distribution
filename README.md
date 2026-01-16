@@ -1,19 +1,5 @@
 
-# Quantum-Enhanced Secure Communication via One-Time Pad and Key Distribution
-# Architecture Flow
-Sender
-↓
-Quantum Key Generator (QKD Simulation)
-↓
-One-Time Pad Encryption
-↓
-Secure Communication Channel
-↓
-One-Time Pad Decryption
-↓
-Receiver
-
-# Explanation: The system generates a high-entropy cryptographic key using a simulated quantum process. This key is applied to One-Time Pad encryption to ensure perfect secrecy and is reused only once by the receiver for correct decryption.
+# Quantum-Enhanced Secure Communication via One-Time Pad and Key Distribution 
 
 📡 Quantum-Enhanced Secure Communication via One-Time Pad & Key Distribution
 
