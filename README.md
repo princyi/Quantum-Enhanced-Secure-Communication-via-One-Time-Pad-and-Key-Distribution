@@ -1,5 +1,173 @@
 
-# Quantum-Enhanced Secure Communication via One-Time Pad and Key Distribution 
+# Quantum-Enhanced Secure Communication with AI Automation
+This project implements a quantum-enhanced secure communication system that combines Quantum Key Distribution (QKD) with One-Time Pad (OTP) encryption, enhanced by AI-driven automation and analysis.
+The goal is to build a post-quantum secure framework that is resilient to both classical and quantum attacks, while leveraging machine learning and generative AI for intelligent monitoring, decision-making, and reporting.
+
+This project bridges Quantum Computing + AI + Cybersecurity, making it suitable for AI Engineer, ML Engineer, and Research-oriented roles.
+
+🚀 Key Features
+
+Quantum-secure key generation using BB84-based QKD simulation
+
+Perfect secrecy using One-Time Pad (OTP) encryption
+
+AI-based anomaly detection for eavesdropping identification
+
+AI key quality validation before encryption
+
+Automated security decision pipeline
+
+Generative AI-based security reporting
+
+Cloud-ready design aligned with AWS Braket
+
+🧠 AI Integration (Core Highlight)
+
+AI is used to assist, automate, and explain security operations — not to replace cryptography.
+
+✅ AI Capabilities
+
+Detect abnormal quantum channel behavior
+
+Validate randomness and entropy of quantum keys
+
+Automate encryption decisions
+
+Generate human-readable security summaries
+
+🏗️ System Architecture
+QKD Simulator (BB84 / AWS Braket)
+        ↓
+AI Key Quality Validation (TensorFlow)
+        ↓
+AI Anomaly Detection (PyTorch)
+        ↓
+Automation Controller
+        ↓
+One-Time Pad Encryption
+        ↓
+Generative AI Security Report
+
+🤖 AI Models & Automation
+1️⃣ AI-Based Key Quality Validation (TensorFlow)
+
+Input features:
+
+Shannon entropy
+
+Bit balance
+
+Autocorrelation
+
+Output:
+
+Accept / Reject cryptographic key
+
+# TensorFlow model (key quality classifier)
+model = tf.keras.Sequential([
+    tf.keras.layers.Dense(16, activation='relu', input_shape=(3,)),
+    tf.keras.layers.Dense(8, activation='relu'),
+    tf.keras.layers.Dense(1, activation='sigmoid')
+])
+
+2️⃣ AI-Based Anomaly Detection (PyTorch)
+
+Detects:
+
+Eavesdropping
+
+Abnormal quantum noise
+
+Input features:
+
+Quantum Bit Error Rate (QBER)
+
+Noise variance
+
+Bit mismatch rate
+
+class AnomalyDetector(nn.Module):
+    def __init__(self):
+        super().__init__()
+        self.net = nn.Sequential(
+            nn.Linear(3, 16),
+            nn.ReLU(),
+            nn.Linear(16, 1),
+            nn.Sigmoid()
+        )
+
+3️⃣ AI Automation Controller
+
+Automatically:
+
+Rejects weak keys
+
+Triggers key regeneration
+
+Stops encryption during detected attacks
+
+4️⃣ Generative AI (Explainability Layer)
+
+Generates:
+
+Session security summary
+
+Key quality explanation
+
+Intrusion detection report
+
+Used for explainable AI and automation reporting, not encryption.
+
+☁️ Quantum & Cloud Integration
+
+AWS Braket
+
+Quantum circuit simulation
+
+Future-ready for real quantum hardware
+
+Enables hybrid quantum–classical–AI workflows
+
+🛠️ Technologies Used
+Quantum & Security
+
+Quantum Key Distribution (BB84 Simulation)
+
+One-Time Pad (OTP) Encryption
+
+XOR Cryptographic Operations
+
+AWS Braket (Quantum Simulation)
+
+AI & Machine Learning
+
+Machine Learning (Classification & Anomaly Detection)
+
+TensorFlow (Key Validation)
+
+PyTorch (Intrusion Detection)
+
+Generative AI (Security Reporting)
+
+Statistical Feature Engineering
+
+Programming
+
+Python
+
+NumPy
+
+Scikit-learn
+
+🎯 Use Cases
+
+Post-quantum secure communication
+
+AI-assisted cybersecurity systems
+
+Quantum-safe cryptographic research
+
+Secure key management automation
 
 📡 Quantum-Enhanced Secure Communication via One-Time Pad & Key Distribution
 
